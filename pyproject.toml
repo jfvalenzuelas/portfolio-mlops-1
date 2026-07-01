@@ -1,0 +1,23 @@
+[project]
+name = "portfolio-mlops-1"
+version = "0.1.0"
+description = "This is a showcase project for MLOps"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "pre-commit>=4.0.0",
+  "ruff>=0.11.0",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.format]
+quote-style = "double"
