@@ -4,7 +4,13 @@ version = "0.1.0"
 description = "This is a showcase project for MLOps"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "lxml>=6.1.1",
+    "pandas>=3.0.3",
+    "pyarrow>=24.0.0",
+    "requests>=2.34.2",
+    "tqdm>=4.68.3",
+]
 
 [dependency-groups]
 dev = [
